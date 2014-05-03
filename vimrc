@@ -9,7 +9,9 @@ set colorcolumn=81
 set showmatch
 
 "Color Scheme
-color molokai
+if isdirectory(expand("$HOME/.vim/colors")) 
+  color molokai
+endif
 
 "WildMenu
 set wildmenu 
@@ -41,6 +43,7 @@ nmap <Leader>l :tabn<cr>
 nmap <Leader>n :tabnew<cr>
 nmap <Leader>< :bp<cr>
 nmap <Leader>> :bn<cr>
+nmap <Leader>a :Ack 
 nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
