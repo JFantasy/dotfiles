@@ -60,6 +60,7 @@ Bundle 'bling/vim-airline'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'majutsushi/tagbar'
 Bundle 'tomasr/molokai'
 
 "EasyMotion
