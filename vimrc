@@ -69,3 +69,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 
 "NerdTree
 let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']
+
+"AutoRun
+autocmd VimEnter * NERDTree    
+autocmd VimEnter * Tagbar
