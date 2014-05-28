@@ -35,8 +35,8 @@ set smartcase
 "NMap
 let mapleader=","
 nmap <cr> :nohlsearch<cr>
-nmap nt :NERDTreeToggle<cr>
-nmap tb :Tagbar<cr>
+nmap <Leader><Leader> :NERDTreeToggle<cr>
+nmap <Leader>. :Tagbar<cr>
 nmap <Leader>e :tabe 
 nmap <Leader>c :tabc<cr>
 nmap <Leader>h :tabp<cr>
