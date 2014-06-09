@@ -5,8 +5,13 @@ set cursorline
 set cursorcolumn 
 set laststatus=2 
 set t_Co=256 
-set colorcolumn=81
+set colorcolumn=80
 set showmatch
+
+"Encoding
+set encoding=utf-8
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set termencoding=utf-8
 
 "Color Scheme
 if isdirectory(expand("$HOME/.vim/colors")) 
