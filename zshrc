@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
- ZSH_THEME="muse"
+ZSH_THEME="muse"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -47,3 +47,5 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+cowsay -f $(ls /usr/local/Cellar/cowsay/3.03/share/cows | gshuf -n1) $(fortune)
