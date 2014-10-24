@@ -75,3 +75,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 "NerdTree
 let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']
 
+"Sytastic
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
+
