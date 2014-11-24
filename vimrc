@@ -42,13 +42,6 @@ let mapleader=","
 nmap <cr> :nohlsearch<cr>
 nmap <Leader><Leader> :NERDTreeToggle<cr>
 nmap <Leader>. :Tagbar<cr>
-nmap <Leader>e :tabe 
-nmap <Leader>c :tabc<cr>
-nmap <Leader>h :tabp<cr>
-nmap <Leader>l :tabn<cr>
-nmap <Leader>n :tabnew<cr>
-nmap <Leader>< :bp<cr>
-nmap <Leader>> :bn<cr>
 nmap <Leader>a :Ack 
 nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
@@ -65,12 +58,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'bling/vim-airline'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'Lokaltog/vim-easymotion'
 Bundle 'majutsushi/tagbar'
 Bundle 'tomasr/molokai'
-
-"EasyMotion
-let g:EasyMotion_leader_key = '<Leader>'
 
 "NerdTree
 let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']
