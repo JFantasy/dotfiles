@@ -48,4 +48,3 @@ source $ZSH/oh-my-zsh.sh
 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
-cowsay -f $(ls /usr/local/Cellar/cowsay/3.03/share/cows | gshuf -n1) $(fortune)
