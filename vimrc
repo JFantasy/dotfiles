@@ -1,12 +1,14 @@
-"View
+""View
+syntax on
 set nu 
 set ru 
 set cursorline 
-set cursorcolumn 
 set laststatus=2 
 set t_Co=256 
 set colorcolumn=80
 set showmatch
+set scrolljump=5
+set scrolloff=2
 
 "Encoding
 set encoding=utf-8
@@ -29,7 +31,6 @@ set nobackup
 set noswapfile 
 set sw=2 sts=2 ts=2
 filetype plugin indent on
-syntax on
 
 "Search
 set incsearch
@@ -42,7 +43,6 @@ let mapleader=","
 nmap <cr> :nohlsearch<cr>
 nmap <Leader><Leader> :NERDTreeToggle<cr>
 nmap <Leader>. :Tagbar<cr>
-nmap <Leader>a :Ack 
 nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
@@ -67,4 +67,3 @@ let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']
 "Sytastic
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
-
