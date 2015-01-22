@@ -16,6 +16,7 @@ vundle:
 
 vim: vundle
 	ln -fs `pwd`/vimrc ~/.vimrc
+	ln -fs 'pwd'/vimrc.bundle ~/.vimrc.bundle
 	vim -c 'execute "BundleInstall" | q | q'
 	mkdir -p ~/.vim/colors
 	ln -fs ~/.vim/bundle/molokai/colors/molokai.vim ~/.vim/colors/molokai.vim

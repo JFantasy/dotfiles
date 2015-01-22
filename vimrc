@@ -56,22 +56,4 @@ nmap <C-H> <C-W>h
 nmap <C-L> <C-W>l
 
 "Bundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-"Bundle List
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/syntastic'
-Bundle 'bling/vim-airline'
-Bundle 'mileszs/ack.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'majutsushi/tagbar'
-Bundle 'bling/vim-bufferline'
-Bundle 'tomasr/molokai'
-
-"NerdTree
-let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']
-
-"Sytastic
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
+source ~/.vimrc.bundle
