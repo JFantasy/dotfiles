@@ -29,6 +29,9 @@ set et
 set autoindent
 set nobackup 
 set noswapfile 
+set hidden
+set splitright
+set splitbelow
 set sw=2 sts=2 ts=2
 filetype plugin indent on
 
@@ -37,6 +40,7 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
+set nowrapscan
 
 "NMap
 let mapleader=","
