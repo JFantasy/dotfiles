@@ -30,9 +30,10 @@ set noswapfile
 set hidden
 set splitright
 set splitbelow
+set autoread
 set sw=2 sts=2 ts=2
 set scrolljump=5
-set scrolloff=2
+set scrolloff=3
 filetype plugin indent on
 
 "Search
@@ -40,13 +41,11 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
-set nowrapscan
 
 "NMap
 let mapleader=","
 nmap <cr> :nohlsearch<cr>
-nmap <Leader><Leader> :NERDTreeToggle<cr>
-nmap <Leader>. :Tagbar<cr>
+nmap <Leader><Leader> <plug>NERDTreeTabsToggle<CR>
 nmap <Leader>. :Tagbar<cr>
 nmap <Leader>b :bp<cr>
 nmap <Leader>n :bn<cr>
