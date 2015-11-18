@@ -47,8 +47,8 @@ let mapleader=","
 nmap <cr> :nohlsearch<cr>
 nmap <Leader><Leader> <plug>NERDTreeTabsToggle<CR>
 nmap <Leader>. :Tagbar<cr>
-nmap <Leader>b :bp<cr>
-nmap <Leader>n :bn<cr>
+nmap <Leader>b :tabp<cr>
+nmap <Leader>n :tabn<cr>
 nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
