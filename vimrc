@@ -34,6 +34,7 @@ set autoread
 set sw=2 sts=2 ts=2
 set scrolljump=5
 set scrolloff=3
+set mouse=a
 filetype plugin indent on
 
 "Search
