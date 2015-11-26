@@ -47,4 +47,5 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+set -o vi
 
