@@ -1,10 +1,10 @@
-""View
+"View
 set nu 
 set ru 
-set cursorline 
+"set cursorline 
 set laststatus=2 
 set t_Co=256 
-set colorcolumn=80
+set colorcolumn=100
 set showmatch
 syntax on
 
@@ -15,8 +15,9 @@ set termencoding=utf-8
 
 "Color Scheme
 if isdirectory(expand("$HOME/.vim/colors")) 
-  color molokai
+  color jellybeans
 endif
+
 
 "WildMenu
 set wildmenu 
@@ -54,6 +55,9 @@ nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
 nmap <C-L> <C-W>l
+
+"LaTex
+let g:tex_flavor='latex'
 
 "Bundle
 source ~/.vimrc.bundle

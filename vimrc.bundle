@@ -9,11 +9,10 @@ Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
-"Bundle 'Raimondi/delimitMate'
+Bundle 'Raimondi/delimitMate'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'tomasr/molokai'
-
-
+Bundle 'nanotech/jellybeans.vim'
 
 "NerdTree
 let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']
@@ -25,3 +24,4 @@ let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
 "YCM
 let g:ycm_auto_trigger = 1
+
