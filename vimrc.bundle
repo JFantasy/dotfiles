@@ -24,4 +24,4 @@ let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
 "YCM
 let g:ycm_auto_trigger = 1
-
+let g:EclimCompletionMethod = 'omnifunc'
