@@ -4,6 +4,7 @@ set ru
 set cursorline 
 set laststatus=2 
 set t_Co=256 
+set bg=dark
 set colorcolumn=100
 set showmatch
 syntax on
