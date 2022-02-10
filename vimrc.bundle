@@ -10,6 +10,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'tomasr/molokai'
 Bundle 'nanotech/jellybeans.vim'
+Bundle 'morhetz/gruvbox'
 
 "NerdTree
 let NERDTreeIgnore = ['\.o$','\.so','\.pyc$']

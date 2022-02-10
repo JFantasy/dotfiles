@@ -10,7 +10,7 @@ syntax on
 
 "Color Scheme
 if isdirectory(expand("$HOME/.vim/colors")) 
-  color jellybeans
+  color gruvbox
 endif
 
 
