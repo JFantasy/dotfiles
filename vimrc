@@ -1,17 +1,12 @@
 "View
 set nu 
 set ru 
-"set cursorline 
+set cursorline 
 set laststatus=2 
 set t_Co=256 
 set colorcolumn=100
 set showmatch
 syntax on
-
-"Encoding
-set encoding=utf-8
-set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
-set termencoding=utf-8
 
 "Color Scheme
 if isdirectory(expand("$HOME/.vim/colors")) 
@@ -55,9 +50,6 @@ nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
 nmap <C-L> <C-W>l
-
-"LaTex
-let g:tex_flavor='latex'
 
 "Bundle
 source ~/.vimrc.bundle
