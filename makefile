@@ -19,6 +19,7 @@ vim: vundle
 	vim -c 'execute "BundleInstall" | q | q'
 	mkdir -p ~/.vim/colors
 	ln -fs ~/.vim/bundle/molokai/colors/molokai.vim ~/.vim/colors/molokai.vim
+	ln -fs ~/.vim/bundle/gruvbox/colors/gruvbox.vim ~/.vim/colors/gruvbox.vim
 
 tmux: 
 	mkdir -p ~/.tmux
