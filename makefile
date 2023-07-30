@@ -3,8 +3,7 @@
 init: vim tmux zsh
 
 oh-my-zsh:
-	[ -d ~/.oh-my-zsh/.git ] || \
-		git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+	sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 zsh: oh-my-zsh
 	ln -fs `pwd`/zshrc ~/.zshrc
